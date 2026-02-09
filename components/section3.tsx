@@ -4,11 +4,10 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
-import { Work_Sans, Inter } from 'next/font/google';
+import { Inter } from 'next/font/google';
 import { ChevronRight } from "lucide-react";// Ikon recycle untuk kartu di atas gambar
 
 // Konfigurasi Font
-const workSans = Work_Sans({ subsets: ['latin'] });
 const inter = Inter({ subsets: ['latin'] });
 
 export default function section3() {
